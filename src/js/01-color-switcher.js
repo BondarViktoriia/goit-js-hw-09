@@ -4,8 +4,8 @@ function getRandomHexColor() {
 }
 
 refs = {
-    btnStart :document.querySelector('[data-start]'),
-    btnStop : document.querySelector('[data-stop]')
+    btnStart :document.querySelector('button[data-start]'),
+    btnStop : document.querySelector('button[data-stop]')
 }
 let idInterval = null;
 
